@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="/tacos">
+      <p>
+      <label for="email">Enter your Email:</label>
+      <input type="text" id="email"  placeholder="Email">
+    </p>
+    <p>
+      <label for="username">Enter a username:</label>
+      <input type="text" id="username"  placeholder="Username">
+    </p>
+    <p>
+      <label for="phone No">Enter your Phone No:</label>
+      <input type="number" id="Phone No" placeholder="Phone No">
+    </p>
+    <p>
+      <label for="color">Enter a color:</label>
+      <input type="color" id="color" placeholder="color">
+    </p>
+    <button>Submit</button>
+    </form>
+
+    <h2>Checkbox</h2>
+<form action="/birds">
+    <input type="checkbox" name="scale-tos" id="scales" checked>
+    <label for="scales">Scales</label>
+    <button>Submit</button>
+    <p>
+      <label for="xs">XS:</label>
+      <input type="radio" name="busy" id="xs" value="LOLOL">
+      <label for="m">M</label>
+      <input type="radio" name="busy" id="m" value="ACTION">
+      <label for="s">S</label>
+      <input type="radio" name="busy" id="s" value="PERMIT">
+      <button>Submit</button>
+      <p>
+        <label for="meal">Please make a choice</label>
+        <select name="mael" id="meal">
+          <option value="fish">Fish</option>
+          <option value="veg" selected>Vegetarian</option>
+          <option value="meat">Meat</option>
+        </select>
+      </p>
+      <button>Submit</button>
+    </p>
+  </form>
+  </body>
+</html>
